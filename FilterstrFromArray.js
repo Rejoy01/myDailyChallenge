@@ -1,6 +1,6 @@
 function Filter_lis(l){
     
-    let val = []
+    let result = []
 
     l.map((item)=>{
         
@@ -9,6 +9,6 @@ function Filter_lis(l){
         }
        
     })
-    return val
+    return result
 }
 console.log(Filter_lis([1, "2", 3,"4"])) 
